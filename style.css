@@ -1,0 +1,36 @@
+.logo{
+    max-height: 18rem;
+    position: relative;
+    top:17.5rem;
+    left:4.5rem;
+    z-index: 2;
+    -webkit-filter: drop-shadow(20px 20px 20px black);
+    filter: drop-shadow(20px 20px 20px black);
+    
+}
+
+.invest{
+    max-height: 10rem;
+    position: absolute;
+    display: inline-block;
+    top:32rem;
+    left:.5rem;
+    color: white;
+   -webkit-filter: drop-shadow(10px 10px 10px black);
+    filter: drop-shadow(10px 10px 10px black);
+    z-index: 2;
+}
+
+body{
+     background-image: linear-gradient(to top , #EC9F05, white);
+}
+
+.bullet{
+    width:140px;
+    height:140px;
+    margin-bottom: 1rem;
+}
+
+.lm{
+    color:#EC9F05;
+}
