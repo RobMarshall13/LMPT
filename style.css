@@ -64,3 +64,8 @@ body{
 .client{
     font-size: 2rem;
 }
+
+#map{
+    height:500px;
+    width: 500px;
+}
