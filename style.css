@@ -34,3 +34,33 @@ body{
 .lm{
     color:#EC9F05;
 }
+
+.elle{
+    width:500;
+    height:500;
+}
+
+#tesimonials-title{
+     margin-bottom: 4rem;
+     
+     
+   
+     
+}
+
+#tests-stamp{
+    padding-bottom: 50px;
+    display: block;
+       position: relative;
+       margin-top:4rem;
+       margin-bottom: 4rem;
+    margin-left: 20%;
+    transform: rotate(-10deg);
+    -webkit-filter: drop-shadow(7px 7px 7px black);
+    filter: drop-shadow(7px 7px 7px black);
+    
+}
+
+.client{
+    font-size: 2rem;
+}
