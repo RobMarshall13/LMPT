@@ -16,3 +16,13 @@ $("img").click(function(){
   var marker = new google.maps.Marker({position: carnbrea, map: map, title: 'Carn Brea Leisure Centre'});
   var marker = new google.maps.Marker({position: atlreach, map: map, title: 'Atlantic Reach Leisure Complex' });
 }
+
+$( ".link" ).mouseenter(function() {
+  $( this ).addClass( "glow" );
+  
+});
+
+$( ".link" ).mouseleave(function() {
+  $( this ).removeClass( "glow" );
+  
+});

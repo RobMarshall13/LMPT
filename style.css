@@ -48,6 +48,11 @@ body{
      
 }
 
+.glow{
+    -webkit-filter: drop-shadow(7px 7px 7px black);
+    filter: drop-shadow(7px 7px 7px black);
+}
+
 #tests-stamp{
     padding-bottom: 50px;
     display: block;
@@ -68,4 +73,20 @@ body{
 #map{
     height:500px;
     width: 500px;
+}
+
+.gym-logos{
+    margin-top: 2rem;
+}
+
+#carn-brea{
+    height:10rem;
+    width:13rem;
+    margin-left:30px;
+    
+}
+
+#atl-reach{
+    height:10rem;
+    width:14rem;
 }
