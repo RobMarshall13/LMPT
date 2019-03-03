@@ -18,10 +18,15 @@ body {
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
-    left:60rem;
-  bottom: 1.5rem;
-  z-index: 10;
-  width:35rem;
+        position: absolute;
+    right: 15%;
+    bottom: 2rem;
+    left: 20%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
   
   
 }
@@ -30,7 +35,7 @@ body {
 }
 
 .banner{
-    padding-left: 2rem;
+    /*padding-left: 2rem;*/
     font-family: Times;
   font-size:2.5rem;
   border-style: groove;
