@@ -90,3 +90,15 @@ body{
     height:10rem;
     width:14rem;
 }
+
+.pt-title{
+    display: block;
+    position: relative;
+    left:0;
+    right:0;
+    margin:auto auto;
+    width:100%;
+    
+   padding: 50px;
+    text-align: center;
+}
